@@ -1,0 +1,5 @@
+/* center bookmarks toolbar */
+#PlacesToolbarItems
+{
+    -moz-box-pack: center;
+}

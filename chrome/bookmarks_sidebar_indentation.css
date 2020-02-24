@@ -1,0 +1,9 @@
+/* Bookmarks Indentation */
+#bookmarks-view-children::-moz-tree-indentation {
+width: 0px !important;}-indentation {
+width: 0px !important;
+padding-left: -5px !important;}
+#bookmarks-view treechildren::-moz-tree-twisty,
+#historyTree treechildren::-moz-tree-twisty {
+list-style-image: none !important;
+margin-left: -14px !important;}

@@ -1,0 +1,58 @@
+
+/* Hide one-click search engines from url bar when it's searching */
+#urlbar .search-one-offs {
+	display: none !important;
+}
+
+/* Hide the back button unless we can actually go back. */
+#back-button[disabled="true"] {
+  display: none;
+}
+
+/* Hide the forward button always */
+#forward-button {
+  display: none;
+}
+
+/* remove ... dots page action */
+#pageActionButton {
+  visibility: collapse !important;
+}
+
+/* This hide the scrollbar from sidebar */
+.hidevscroll-scrollbar { display: none !important;}
+
+/* Hide various elements */
+/* Menu */
+#appMenu-fxa-container,                    /* Sign in to Sync */
+#appMenu-fxa-container+toolbarseparator,
+/* #appMenuRestoreLastSession, */
+#appMenu-zoom-controls,
+#appMenu-zoom-controls+toolbarseparator,
+#appMenu-edit-controls,
+#appMenu-edit-controls+toolbarseparator,
+#appMenu-library-button,
+#appMenu-customize-button,
+#appMenu-customize-button+toolbarseparator,
+#appMenu-open-file-button,
+#appMenu-save-file-button,
+#appMenu-find-button,
+#appMenu-more-button,
+/* URL Bar */
+#pageActionButton,
+#pocket-button-box,
+#star-button,
+#tracking-protection-icon-container,
+#star-button-box,
+#reader-mode-button,
+#pageActionSeparator,
+#reload-button,
+#downloads-button,
+#stop-reload-button,
+/*.autocomplete-history-dropmarker,*/
+/*#identity-box,*/
+.urlbar-history-dropmarker.urlbar-icon.chromeclass-toolbar-additional,
+#identity-icon-labels
+{
+    display: none !important;
+}

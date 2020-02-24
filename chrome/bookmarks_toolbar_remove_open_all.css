@@ -1,0 +1,4 @@
+/* bookmarks toolbar remove "open all in tabs" */
+.openintabs-menuitem {
+    display: none !important;
+}

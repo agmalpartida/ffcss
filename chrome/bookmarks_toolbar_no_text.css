@@ -1,0 +1,35 @@
+/* folder color */
+.bookmark-item[container], treechildren::-moz-tree-image(container) {
+fill: gold !important;
+}
+
+#urlbar-container {
+	max-width: 960px !important;
+}
+/* https://www.reddit.com/r/firefox/comments/72qkvt/any_replacement_for_roomy_bookmarks_toolbar_i/dpumi2n/ */
+.bookmark-item {
+	border-radius: 0 !important;
+}
+toolbarbutton.bookmark-item .toolbarbutton-text {
+    display: none !important;
+}
+toolbarbutton.bookmark-item .toolbarbutton-icon {
+    margin-left: 4px !important;
+}
+toolbarbutton.subviewbutton.subviewbutton-iconic .toolbarbutton-text{
+    display: -moz-box !important;
+}
+@media all and (max-width: 1280px) {
+	.bookmark-item {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	toolbarbutton.bookmark-item .toolbarbutton-icon {
+    margin-left: 2px !important;
+	}
+	#PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon[label]:not([label=""]) {
+		margin-inline-end: 2px !important;
+	}
+}

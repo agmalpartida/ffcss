@@ -1,0 +1,13 @@
+
+/* Sidebar tree lines */
+.sidebar-placesTree > treechildren::-moz-tree-line {
+  visibility: visible !important;
+  border: 1px solid rgba(0,155,155,.5) !important;
+}
+.sidebar-placesTree > treechildren::-moz-tree-line(odd) {
+  border: 1px solid rgba(0,155,155,.7) !important;
+}
+.sidebar-placesTree > treechildren::-moz-tree-line(selected),
+.sidebar-placesTree > treechildren::-moz-tree-line(hover) {
+  border: 1px solid transparent !important;
+}

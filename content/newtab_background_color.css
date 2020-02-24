@@ -1,0 +1,9 @@
+@namespace url("http://www.w3.org/1999/xhtml");
+
+@-moz-document url("about:home"),url("about:blank"),url("about:newtab"),url("about:privatebrowsing"){
+  body{background-color: #2b2b2b !important;}
+}
+@-moz-document("about:privatebrowsing"){
+  .search-handoff-button{ background-color: #2b2b2b !important; }
+  .fake-textbox{ color: white !important } 
+}
