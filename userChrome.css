@@ -1,23 +1,25 @@
 
+/* disabled
 @import url(chrome/autohide_sidebar.css);
-@import url(chrome/sidebar_tree_lines.css);
-/*@import url(chrome/autohide_bookmarks_toolbar.css);*/
-@import url(chrome/hide_elements.css);
 @import url(chrome/page_action_buttons_on_hover.css);
+@import url(chrome/bookmarks_toolbar_no_text.css);
+@import url(chrome/bookmarks_toolbar_center.css);
+@import url(chrome/tab_animation.css);
+@import url(chrome/minimal_toolbarbuttons.css);
+@import url(chrome/combined_favicon_and_tab_close_button.css);
+@import url(chrome/urlbar_centered_text.css);
+*/
+@import url(chrome/sidebar_tree_lines.css);
+@import url(chrome/autohide_bookmarks_toolbar.css);
+@import url(chrome/hide_elements.css);
 @import url(chrome/bookmarks_sidebar_indentation.css);
-/*@import url(chrome/bookmarks_toolbar_no_text.css);*/
 @import url(chrome/bookmarks_toolbar_remove_open_all.css);
-/*@import url(chrome/bookmarks_toolbar_center.css);*/
 @import url(chrome/github_white_favicon.css);
-/*@import url(chrome/tab_animation.css);*/
 @import url(chrome/theme_dark.css);
-/*@import url(chrome/minimal_toolbarbuttons.css);*/
 @import url(chrome/button_effect_icon_glow.css);
 @import url(chrome/button_effect_scale_onhover.css);
-/*@import url(chrome/combined_favicon_and_tab_close_button.css);*/
 @import url(chrome/google_style_urlbar_popup.css);
 @import url(chrome/urlbar_results_in_two_rows.css);
-/*@import url(chrome/urlbar_centered_text.css);*/
 @import url(chrome/numbered_tabs.css);
 @import url(chrome/toolbar_oneliner.css);
 @import url(chrome/tab_loading_progress_throbber.css);
