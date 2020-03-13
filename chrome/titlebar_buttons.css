@@ -1,13 +1,5 @@
 /* Hide Close, Minimise and Maximise buttons */
 
-.titlebar-buttonbox .titlebar-button {
-
-visibility: hidden !important;
-
-}
-
 .titlebar-buttonbox-container {
-
-display: none !important;
-
+  display: none !important;
 }
