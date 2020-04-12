@@ -9,10 +9,12 @@
   display: none;
 }
 
+
 /* Hide the forward button always */
 #forward-button {
   display: none;
 }
+
 
 /* remove ... dots page action */
 #pageActionButton {
@@ -46,9 +48,9 @@
 /*#star-button-box,*/
 #reader-mode-button,
 #pageActionSeparator,
-/*#reload-button,*/
-#downloads-button,
-/*#stop-reload-button,*/
+/*#reload-button,
+#downloads-button,*/
+#stop-reload-button,
 /*.autocomplete-history-dropmarker,*/
 /*#identity-box,*/
 .urlbar-history-dropmarker.urlbar-icon.chromeclass-toolbar-additional,
