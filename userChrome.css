@@ -14,7 +14,7 @@
 @import url(chrome/google_style_urlbar_popup.css);
 @import url(chrome/urlbar_results_in_two_rows.css);
 @import url(chrome/bookmarks_toolbar_center.css);
-@import url(chrome/tab_loading_progress_throbber.css);
+
 @import url(chrome/scrollable_urlbar_popup.css);
 @import url(chrome/autohide_toolbar.css);
 @import url(chrome/autohide_bookmarks_toolbar.css);
@@ -23,6 +23,7 @@
 @import url(chrome/minimal_toolbarbuttons.css);
 @import url(chrome/bookmarks_sidebar_indentation.css);
 @import url(chrome/button_effect_icon_glow.css);
+@import url(chrome/tab_loading_progress_throbber.css);
 
 @import url(chrome/hide_elements.css);
 @import url(chrome/toolbar_oneliner_icons.css);
