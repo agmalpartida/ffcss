@@ -1,11 +1,11 @@
 
 /* disabled
 @import url(chrome/autohide_sidebar.css);
-
+@import url(chrome/minimal_toolbarbuttons.css);
 @import url(chrome/page_action_buttons_on_hover.css);
 @import url(chrome/bookmarks_toolbar_no_text.css);
 @import url(chrome/tab_animation.css);
-
+@import url(chrome/tab_loading_progress_throbber.css);
 @import url(chrome/urlbar_centered_text.css);
 @import url(chrome/sidebar_tree_lines.css);
 
@@ -20,10 +20,10 @@
 @import url(chrome/autohide_bookmarks_toolbar.css);
 */
 @import url(chrome/combined_favicon_and_tab_close_button.css);
-@import url(chrome/minimal_toolbarbuttons.css);
+
 @import url(chrome/bookmarks_sidebar_indentation.css);
 @import url(chrome/button_effect_icon_glow.css);
-@import url(chrome/tab_loading_progress_throbber.css);
+
 
 @import url(chrome/hide_elements.css);
 @import url(chrome/toolbar_oneliner_icons.css);
