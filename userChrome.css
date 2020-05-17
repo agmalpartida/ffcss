@@ -15,6 +15,8 @@
 @import url(chrome/urlbar_results_in_two_rows.css);
 @import url(chrome/bookmarks_toolbar_center.css);
 
+@import url(chrome/theme_dark.css);
+
 @import url(chrome/scrollable_urlbar_popup.css);
 @import url(chrome/autohide_toolbar.css);
 @import url(chrome/autohide_bookmarks_toolbar.css);
@@ -28,7 +30,7 @@
 @import url(chrome/hide_elements.css);
 @import url(chrome/toolbar_oneliner_icons.css);
 @import url(chrome/bookmarks_toolbar_remove_open_all.css);
-@import url(chrome/theme_dark.css);
+
 @import url(chrome/numbered_tabs.css);
 @import url(chrome/github_white_favicon.css);
 @import url(chrome/titlebar_buttons.css);
