@@ -1,11 +1,16 @@
-
 #nav-bar {
   background: transparent !important;
   margin-top: -33px !important;
-  margin-right: 50vw !important;
+  margin-right: 70vw !important;
   height: 33px !important;
   padding-top: 1px !important;
+<<<<<<< HEAD
   padding-left: 20px !important;
+||||||| 49cc1ea
+  padding-left: 70px !important;
+=======
+  padding-left: 10px !important;
+>>>>>>> db745c9f9f67410b8be2e7d3e130680bc7afbb40
   font-size: 10px !important;
 	font-family: 'JetBrains Mono' !important;
 }
@@ -19,12 +24,13 @@
   padding-top: 0px !important;
 }
 
-:root[uidensity="compact"] #urlbar, :root[uidensity="compact"] #searchbar {
+:root[uidensity="compact"] #urlbar,
+:root[uidensity="compact"] #searchbar {
   min-height: 24px !important;
 }
 
 #TabsToolbar {
-  margin-left: 50vw !important;
+  margin-left: 30vw !important;
   height: 33px !important;
   padding-top: 1px !important;
 }
@@ -33,7 +39,8 @@
   height: 33px !important;
 }
 
-.tabbrowser-tab::before, .tabbrowser-tab::after {
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
   display: none !important;
 }
 
@@ -41,8 +48,12 @@
   display: none !important;
 }
 
-.tab-throbber, .tab-icon-pending, .tab-icon-image,
-.tab-sharing-icon-overlay, .tab-icon-sound, .tab-close-button {
+.tab-throbber,
+.tab-icon-pending,
+.tab-icon-image,
+.tab-sharing-icon-overlay,
+.tab-icon-sound,
+.tab-close-button {
   margin-top: 0px !important;
 }
 
@@ -53,14 +64,19 @@
   background-color: rgba(249, 249, 250, 0.05) !important;
 }
 
-#tabbrowser-tabs:not([movingtab]) > .tabbrowser-arrowscrollbox >
-.tabbrowser-tab > .tab-stack >
-.tab-background[multiselected="true"]:-moz-lwtheme,
-#tabbrowser-tabs:not([movingtab]) > .tabbrowser-arrowscrollbox >
-.tabbrowser-tab > .tab-stack >
-.tab-background[selected="true"]:-moz-lwtheme,
-.tabbrowser-tab:hover > .tab-stack >
-.tab-background:not([selected="true"]):not([multiselected]) {
+#tabbrowser-tabs:not([movingtab])
+  > .tabbrowser-arrowscrollbox
+  > .tabbrowser-tab
+  > .tab-stack
+  > .tab-background[multiselected="true"]:-moz-lwtheme,
+#tabbrowser-tabs:not([movingtab])
+  > .tabbrowser-arrowscrollbox
+  > .tabbrowser-tab
+  > .tab-stack
+  > .tab-background[selected="true"]:-moz-lwtheme,
+.tabbrowser-tab:hover
+  > .tab-stack
+  > .tab-background:not([selected="true"]):not([multiselected]) {
   background-color: rgba(249, 249, 250, 0.15) !important;
 }
 
@@ -71,7 +87,8 @@
   margin-top: -3px !important;
 }
 
-.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"] {
   display: none !important;
 }
 
@@ -93,35 +110,37 @@
   border: none !important;
 }
 
-#TabsToolbar, #nav-bar, #PersonalToolbar {
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar {
   -moz-appearance: -moz-mac-vibrancy-dark !important;
 }
 
-
 /* Icons */
-	#PanelUI-menu-button {
-		list-style-image: url(image/Fx-Browser-icon-oneColor-white.png) !important;}
-	#PanelUI-button {
-			margin-inline-start: 0 !important;
-			padding-inline-start: 0 !important;
-			border: none !important;
-			border-inline-start: none !important;
-	}
-	#PanelUI-button #PanelUI-menu-button .toolbarbutton-icon {
-		opacity: 0.7 !important;
-	}
-	#home-button {
-		list-style-image: url(image/fire-2-32.ico) !important;
-	}
-	#home-button .toolbarbutton-icon {
-		opacity: 0.7 !important;
-	}
-	#PlacesToolbarItems .bookmark-item[container] {
-		list-style-image: url(image/folder.svg) !important;
-	}
-	#forward-button {
-		list-style-image: url(image/right-arrow.svg) !important;
-	}
-	#back-button {
-		list-style-image: url(image/left-arrow.svg) !important;
-	}
+#PanelUI-menu-button {
+  list-style-image: url(image/Fx-Browser-icon-oneColor-white.png) !important;
+}
+#PanelUI-button {
+  margin-inline-start: 0 !important;
+  padding-inline-start: 0 !important;
+  border: none !important;
+  border-inline-start: none !important;
+}
+#PanelUI-button #PanelUI-menu-button .toolbarbutton-icon {
+  opacity: 0.7 !important;
+}
+#home-button {
+  list-style-image: url(image/fire-2-32.ico) !important;
+}
+#home-button .toolbarbutton-icon {
+  opacity: 0.7 !important;
+}
+#PlacesToolbarItems .bookmark-item[container] {
+  list-style-image: url(image/folder.svg) !important;
+}
+#forward-button {
+  list-style-image: url(image/right-arrow.svg) !important;
+}
+#back-button {
+  list-style-image: url(image/left-arrow.svg) !important;
+}
